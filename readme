@@ -1,0 +1,17 @@
+# Work Day Scheduler - Project 5
+## By Scott Nichols
+
+In this project we were to use 3rd-party APIs to fine tune the functionality of a daily scheduler.  The scheduler includes the following features:
+
+* Upon loading the page the current date is displayed below the header, using Moment JS to always udpate the page with the current time.
+* The page displays hourly blocks where tasks can be added with labels for common business houres.
+* Once a task is entered there is a save button available to save the detail to local persistant storage. The tasks will remain present when the page is refreshed or the browser closed and reopened.
+* The background color is displayed in different colors depending on if it is due in the future, present or past. This functinoality takes advantage of moment JS to call a block of hour and compare it to the current hour.
+
+I worked in a group with Sabriel Gee from my current cohort, so some code may be similar.
+
+Website URL: https://sessions21.github.io/Scheduler-Proj5/
+Repository URL: https://github.com/Sessions21/Scheduler-Proj5
+
+
+![Screenshot-of-website](assets/images/Workday-Scheduler.jpg)

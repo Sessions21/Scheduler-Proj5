@@ -55,12 +55,6 @@ for (var i = 0; i < timeIncrementArray.length; i++) {
   )};
 
 
-
-  // for (var i = 0; i < 9; i++) {
-  //   $("#timeDisplay").append(generateTimeblock(index+10,)) 
-  //   }
-
-
 //Current time display at page top on load
 var timeDisplay = moment();
 var timeContainer = $("#currentDay");
